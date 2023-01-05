@@ -5,7 +5,16 @@ on:
 
 jobs:
   fisrt_linter:
-    name: "linter"
+    name: "display hello"
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world !!"
+
+  second_linter:
+    name: "fisrt"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: python --version
+
+      
