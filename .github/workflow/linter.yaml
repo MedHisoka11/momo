@@ -1,0 +1,11 @@
+name: "fisrt linter"
+
+on:
+  push:
+
+jobs:
+  fisrt_linter:
+    name: "linter"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world !!"
