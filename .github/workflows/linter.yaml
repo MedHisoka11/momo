@@ -16,5 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: python --version
+      - run: pip install pylint 
 
       
